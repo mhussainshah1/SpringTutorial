@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class RestaurantService {
-    private KitchenService kitchenService;
+    private final KitchenService kitchenService;
 
     public RestaurantService(KitchenService kitchenService){
         this.kitchenService = kitchenService;
