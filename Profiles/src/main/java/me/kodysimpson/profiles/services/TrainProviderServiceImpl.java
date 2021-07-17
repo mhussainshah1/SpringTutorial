@@ -1,14 +1,15 @@
-package com.example.primaryandqualifiers.services;
+package me.kodysimpson.profiles.services;
 
-import com.example.primaryandqualifiers.model.Vehicle;
-import com.example.primaryandqualifiers.model.VehicleType;
+import me.kodysimpson.profiles.model.Vehicle;
+import me.kodysimpson.profiles.model.VehicleType;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
 @Service
-@Primary //Primary /Default - Service to autowire if implementation is not provided
+@Profile({"train" , "dev"})
 public class TrainProviderServiceImpl implements VehicleProviderService{
 
     @Override

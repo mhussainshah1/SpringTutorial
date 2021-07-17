@@ -1,7 +1,7 @@
-package com.example.primaryandqualifiers.services;
+package me.kodysimpson.primaryandqualifiers.services;
 
-import com.example.primaryandqualifiers.model.Vehicle;
-import com.example.primaryandqualifiers.model.VehicleType;
+import me.kodysimpson.primaryandqualifiers.model.Vehicle;
+import me.kodysimpson.primaryandqualifiers.model.VehicleType;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;

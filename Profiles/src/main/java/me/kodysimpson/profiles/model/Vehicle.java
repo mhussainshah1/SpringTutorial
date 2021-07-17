@@ -1,4 +1,4 @@
-package com.example.primaryandqualifiers.model;
+package me.kodysimpson.profiles.model;
 
 import java.util.UUID;
 

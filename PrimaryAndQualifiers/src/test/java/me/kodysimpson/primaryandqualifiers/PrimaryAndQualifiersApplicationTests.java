@@ -1,4 +1,4 @@
-package com.example.primaryandqualifiers;
+package me.kodysimpson.primaryandqualifiers;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.example.primaryandqualifiers.services;
+package me.kodysimpson.profiles.services;
 
-import com.example.primaryandqualifiers.model.Vehicle;
+import me.kodysimpson.profiles.model.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,7 @@ public class PublicTransportationService {
 
     //Setter Injection
     @Autowired
-    public void setVehicleProviderService(@Qualifier("bus")VehicleProviderService vehicleProviderService) {
+    public void setVehicleProviderService(VehicleProviderService vehicleProviderService) {
         this.vehicleProviderService = vehicleProviderService;
     }
 

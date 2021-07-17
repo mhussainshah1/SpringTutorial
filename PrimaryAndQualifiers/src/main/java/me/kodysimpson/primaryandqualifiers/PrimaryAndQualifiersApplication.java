@@ -1,7 +1,7 @@
-package com.example.primaryandqualifiers;
+package me.kodysimpson.primaryandqualifiers;
 
-import com.example.primaryandqualifiers.model.Vehicle;
-import com.example.primaryandqualifiers.services.PublicTransportationService;
+import me.kodysimpson.primaryandqualifiers.model.Vehicle;
+import me.kodysimpson.primaryandqualifiers.services.PublicTransportationService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
